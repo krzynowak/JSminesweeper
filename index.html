@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Minesweeper</h1>
+    <div id="difficulty">
+        <button id="dbutt" onclick="setDiff(0)">Beginner</button>
+        <button id="dbutt" onclick="setDiff(1)">Intermediate</button>
+        <button id="dbutt" onclick="setDiff(2)">Expert</button>
+    </div>
+    <div oncontextmenu="return false" style="display: inline-block">
+
+        <div id='menu'>
+            <div class="counter" id='bombCnter' style="float: left">
+                <img name="a" src="img/0.jpg" width=30 height=50>
+                <img name="b" src="img/0.jpg" width=30 height=50>
+                <img name="c" src="img/0.jpg" width=30 height=50>
+            </div>
+
+            <div id="rButton" style="display: inline;">
+                <button onclick="initPage()"></button>
+            </div>
+
+
+            <div class="counter" id='timeCnter' style="float: right">
+                <img name="a" src="img/0.jpg" width=30 height=50>
+                <img name="b" src="img/0.jpg" width=30 height=50>
+                <img name="c" src="img/0.jpg" width=30 height=50>
+            </div>
+        </div>
+
+        <div id='board'>
+            <table id='field'></table>
+        </div>
+
+    </div>
+
+    </br><a id="footer" href="https://www.vecteezy.com/free-vector/numbers">Numbers Vectors by Vecteezy</a>
+</body>
+
+
+</html>

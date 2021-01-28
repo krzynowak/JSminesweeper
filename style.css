@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(17, 122, 226);
+    text-align: center;
+}
+
+h1 {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div>div {
+    text-align: center;
+    background-color: grey;
+}
+
+#menu {
+    border: 2px solid black;
+}
+
+table {
+    text-align: inherit;
+}
+
+.blocked {
+    background-color: #ff1a1a;
+}
+
+#footer {
+    z-index: 9999999999999;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+table {
+    text-align: center;
+    background-color: black;
+}
+
+th {
+    width: 32px;
+    height: 32px;
+    background-color: grey;
+
+}
+
+#dbutt {
+    text-align: center;
+    width: 93px;
+    height: 30px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.counter {
+    font-size: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
